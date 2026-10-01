@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Архіпенко Артємій Вадимович, ІМ-43,  Лаб. робота №2, Варіант 7</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 900px;
+        }
+
+        td {
+            border: 2px solid black;
+            text-align: center;
+            vertical-align: middle;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        tr {
+            height: 50px;
+        }
+
+        .row-1 {
+            background-color: #078f8f;
+            color: #ffffff;
+        }
+
+        .row-1:hover {
+            background-color: #ffffff;
+            color: #078f8f;
+        }
+
+        .row-2 {
+            background-color: #f5f507;
+            color: #000000;
+        }
+
+        .row-2:hover {
+            background-color: #000000;
+            color: #f5f507;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+
+        <tr>
+            <td class="row-1" rowspan="2" colspan="2">Архіпенко</td>
+            <td class="row-1">Артємій</td>
+            <td class="row-1">Вадимович</td>
+        </tr>
+
+        <tr>
+            <td class="row-2">Лабораторна робота 2</td>
+            <td class="row-2">7</td>
+        </tr>
+
+        <tr>
+            <td class="row-2" colspan="2">ІМ-43</td>
+            <td class="row-3"></td>
+            <td class="row-3" rowspan="2"></td>
+        </tr>
+
+        <tr>
+            <td class="row-3"></td>
+            <td class="row-4"></td>
+            <td class="row-4"></td>
+        </tr>
+    </table>
+    <div class="clocks">
+        <div class="clock pos-version">
+            <div class="dot dot-top"></div>
+            <div class="dot dot-right"></div>
+            <div class="dot dot-bottom"></div>
+            <div class="dot dot-left"></div>
+            <div class="hand-vertical"></div>
+            <div class="hand-horizontal"></div>
+        </div>
+
+        <div class="clock tr-version">
+            <div class="dot dot-top"></div>
+            <div class="dot dot-right"></div>
+            <div class="dot dot-bottom"></div>
+            <div class="dot dot-left"></div>
+            <div class="hand-vertical"></div>
+            <div class="hand-horizontal"></div>
+        </div>
+    </div>
+</body>
+</html>

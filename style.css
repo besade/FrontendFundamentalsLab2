@@ -1,0 +1,104 @@
+.clocks {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ececec;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.pos-version .dot {
+    position: absolute;
+}
+
+.pos-version .dot-top {
+    top: 10px;
+    left: 90px;
+}
+
+.pos-version .dot-bottom {
+    bottom: 10px;
+    left: 90px;
+}
+
+.pos-version .dot-left {
+    left: 10px;
+    top: 90px;
+}
+
+.pos-version .dot-right {
+    right: 10px;
+    top: 90px;
+}
+
+.pos-version .hand-vertical {
+    position: absolute;
+    width: 6px;
+    height: 100px;
+    background-color: black;
+    top: 20px;
+    left: 98px;
+}
+
+.pos-version .hand-horizontal {
+    position: absolute;
+    width: 75px;
+    height: 6px;
+    background-color: black;
+    top: 97px;
+    left: 83px;
+}
+
+.tr-version .dot,
+.tr-version .hand-vertical,
+.tr-version .hand-horizontal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.tr-version .dot-top {
+    transform: translate(-50%, -89px);
+}
+
+.tr-version .dot-bottom {
+    transform: translate(-50%, 68px);
+}
+
+.tr-version .dot-left {
+    transform: translate(-86px, -50%);
+}
+
+.tr-version .dot-right {
+    transform: translate(68px, -50%);
+}
+
+.tr-version .hand-vertical {
+    width: 6px;
+    height: 100px;
+    background-color: black;
+    transform: translate(-50%, -79%);
+}
+
+.tr-version .hand-horizontal {
+    width: 75px;
+    height: 6px;
+    background-color: black;
+    transform: translate(-23%, -50%);
+}
